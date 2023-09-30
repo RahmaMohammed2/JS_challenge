@@ -40,3 +40,10 @@ switch (today) {
         
         break;
 }
+
+
+do {
+    console.log("Noor")
+    count++;
+} while (count < 10);
+
