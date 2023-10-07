@@ -1,7 +1,12 @@
+/* This challenge file was created, so that i could write the code off by heart without using any code references*/
+
+//How to write a for loop//
+
 for(let i =0; i<5; i++) {
     console.log("Rahma")
 }
 
+ //How to write a while loop//
 
 let i = 0;
 
@@ -10,37 +15,9 @@ while(i <10) {
     i++
 } 
 
-let today = "Sunday"
-
-if(today == "Saturday") {
-    console.log ("Come to Coding Class")
-} else if (today == "Sunday") {
-    console.log("Sleep")
-} else if( today == "Monday") {
-    console.log("Go to school")
-} else {
-    console.log("Do whatever you like")
-}
 
 
-switch (today) {
-    case "Saturday":
-        console.log("Coding time ...")
-        break;
-    case "Sunday":
-        console.log("Sleep time")
-        break;
-    case "Monday":
-        console.log("Monday")
-          break;
-
-
-    default:
-        console.log("Do whatever you like")
-        
-        break;
-}
-
+//How to write a do while loop//
 
 do {
     console.log("Noor")
