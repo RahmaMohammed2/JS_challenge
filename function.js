@@ -1,8 +1,26 @@
-//write a simple JAVASCRIPT function called multiply that takes two numbers as params and returns the result to the caller
+// write a simple JavaScript function called multipy that takes two numbers as params and returns the result to the caller
+// function multiply(num1, num2) {
+//     return num1 * num2
+// }
 
-function multiply(a,y) {
-    return a * y 
-}
+// let result = multiply(5,6)
+// console.log(result)
 
-let result = multiply (5,8)
+
+// convert the function above to a variable
+
+// let multiply =  function (num1, num2) {
+//     return num1 * num2
+// }
+
+// let result = multiply(5,6)
+// console.log(result)
+
+
+// convert the multiply fuction above to an arrow function
+
+let multiply = (num1, num2) => num1 * num2
+
+
+let result = multiply(5,9)
 console.log(result)
